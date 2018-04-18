@@ -1,11 +1,13 @@
+package GitExerciseMaven.GitExerciseMaven;
 
-public class Account {
+
+public class Account1 {
 
 	private String firstName;
 	private String lastName;
 	private String accountNumber;
 	
-	public Account(String firstName,String lastName,String accountNumber) {
+	public Account1(String firstName,String lastName,String accountNumber) {
 		this.firstName=firstName;
 		this.lastName=lastName;
 		this.accountNumber=accountNumber;

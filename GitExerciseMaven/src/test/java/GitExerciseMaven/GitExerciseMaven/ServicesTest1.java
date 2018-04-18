@@ -1,17 +1,23 @@
-package test;
-import static org.junit.Assert.*;
+package GitExerciseMaven.GitExerciseMaven;
+
+import static org.junit.Assert.assertEquals;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import org.junit.Test;
 
-public class ServicesTest {
+import junit.framework.TestCase;
 
+
+public class ServicesTest1 extends TestCase {
+
+	
 	@Test
 	public void test() {
+		
 		Map m1 = new HashMap();
-		Account a = new Account("jack","flanagan","123");
+		Account1 a = new Account1("jack","flanagan","123");
 		
 		String name = a.getfirstName()+" " + a.getlastName();
 		m1.put(name,a.getaccountNumber());
@@ -22,5 +28,4 @@ public class ServicesTest {
 				assertEquals(expected,actual);
 		
 	}
-
 }
