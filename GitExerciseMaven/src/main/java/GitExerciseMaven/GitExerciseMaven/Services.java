@@ -1,4 +1,5 @@
-package test;
+package GitExerciseMaven.GitExerciseMaven;
+
 import java.util.HashMap;
 import java.util.Map;
 
