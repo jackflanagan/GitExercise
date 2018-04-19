@@ -2,10 +2,6 @@ package GitExerciseMaven.GitExerciseMaven;
 
 import java.util.HashMap;
 
-import org.junit.Test;
-
-import junit.framework.Assert;
-
 public class AccountName {
 
 	
@@ -29,7 +25,7 @@ public class AccountName {
 		m1.put(a1.getaccountNumber(),name1);
 		m1.put(a2.getaccountNumber(),name2);
 		
-		System.out.println(m1);
+		
 		
 		
 		for(String key : m1.values()) {
