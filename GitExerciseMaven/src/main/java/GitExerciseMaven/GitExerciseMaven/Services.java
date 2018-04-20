@@ -7,8 +7,8 @@ import org.json.JSONObject;
 
 public class Services  {
 	
-	Map m1 = new HashMap();
-	Account a = new Account("jack","flanagan","123");
+	private Map m1 = new HashMap();
+	private Account a = new Account("jack","flanagan","123");
 	
 	public void setMap() {
 		
